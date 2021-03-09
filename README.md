@@ -1,4 +1,4 @@
-# CodeUtils
+# CodeUtil
 
 Module with some useful functions to help and simplify your code.
 
@@ -9,13 +9,13 @@ Module with some useful functions to help and simplify your code.
 <dd><p>Return a random array item.</p>
 </dd>
 <dt><a href="#random">random([max])</a> ⇒ <code>Number</code></dt>
-<dd><p>return a random number following the max number restriction</p>
+<dd><p>Return a random number following the max number restriction</p>
 </dd>
 <dt><a href="#random">random()</a> ⇒ <code>String</code></dt>
-<dd><p>will return a random string</p>
+<dd><p>Will return a random string</p>
 </dd>
 <dt><a href="#toProperCase">toProperCase([str], [start])</a> ⇒ <code>String</code></dt>
-<dd><p>modify the string to start with an upper case</p>
+<dd><p>Modify the string to start with an upper case</p>
 </dd>
 </dl>
 
@@ -33,12 +33,12 @@ Return a random array item.
 
 **Example**  
 ```js
-require('123abc').Array.random(['abc', '123'])
+require('codeutil').Array.random(['abc', '123'])
 ```
 <a name="random"></a>
 
 ## random([max]) ⇒ <code>Number</code>
-return a random number following the max number restriction
+Return a random number following the max number restriction
 
 **Kind**: global function  
 
@@ -48,22 +48,22 @@ return a random number following the max number restriction
 
 **Example**  
 ```js
-require('123abc').Number.random()
+require('codeutil').Number.random()
 ```
 <a name="random"></a>
 
 ## random() ⇒ <code>String</code>
-will return a random string
+Will return a random string
 
 **Kind**: global function  
 **Example**  
 ```js
-require('123abc').String.random()
+require('codeutil').String.random()
 ```
 <a name="toProperCase"></a>
 
 ## toProperCase([str], [start]) ⇒ <code>String</code>
-modify the string to start with an upper case
+Modify the string to start with an upper case
 
 **Kind**: global function  
 
@@ -74,6 +74,7 @@ modify the string to start with an upper case
 
 **Example**  
 ```js
-require('123abc').String.toProperCase('hi abc no') // Hi abc no
-require('123abc').String.toProperCase('hi abc no', true) // Hi Abc No
+require('codeutil').String.toProperCase('hi abc no') // Hi abc no
+require('codeutil').String.toProperCase('hi abc no', true) // Hi Abc No
 ```
+
