@@ -105,4 +105,4 @@ dist
 
 # Testing lib
 
-__tst__.js
+__test__.js
