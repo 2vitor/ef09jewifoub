@@ -1,14 +1,20 @@
 {
-  "name": "ef09jewifoub",
-  "version": "1.0.0",
+  "name": "codeutil",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "license": "MIT",
+  "scripts": {
+    "docs": "jsdoc2md ./lib/utils/*/*.js"
+  },
   "devDependencies": {
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "jsdoc": "^3.6.6",
+    "jsdoc-to-markdown": "^7.0.0"
   },
-  "dependencies": {
-    "events": "^3.3.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2vitor/codeutils.git"
   }
 }
